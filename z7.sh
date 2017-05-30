@@ -39,12 +39,16 @@ cd
 # check registered ip
 wget -q -O IP $source/debian7/IP.txt
 if ! grep -w -q $MYIP IP; then
-	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
-	if [[ $vps = "zvur" ]]; then
-		echo "Hubungi: editor MuLuu09 atau (+601131731782)"
-	else
-		echo "Hubungi: editor MuLuu09 atau (+601131731782)"
-	fi
+	echo "
+      System Menu By MuLuu09
+[ YOUR IP NOT REGISTER ON MY SCRIPT ]
+         RM 20 PER IP/VPS
+----==== CONTACT FOR REGISTER ====----
+[ SMS/Telegram : +601131731782 / @MuLuu09 ]
+"
+
+
+
 	rm /root/IP
 	rm -f /root/IP
 	exit
