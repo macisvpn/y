@@ -30,7 +30,7 @@ vps="aneka";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/mappakkoe09/y"
+	source="https://raw.githubusercontent.com/Qeesya/y"
 #fi
 
 # go to root
@@ -433,7 +433,7 @@ echo "------------" | tee -a log-install.txt
 echo "Webmin         : http://$MYIP:10000/" | tee -a log-install.txt
 echo "vnstat         : http://$MYIP:81/vnstat/ [Cek Bandwith]" | tee -a log-install.txt
 echo "MRTG           : http://$MYIP:81/mrtg/" | tee -a log-install.txt
-echo "Timezone       : Asia/Jakarta " | tee -a log-install.txt
+echo "Timezone       : Asia/KualaLumpur " | tee -a log-install.txt
 echo "Fail2Ban       : [on]" | tee -a log-install.txt
 echo "DDoS Deflate.  : [on]" | tee -a log-install.txt
 echo "Block Torrent  : [off]" | tee -a log-install.txt
