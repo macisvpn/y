@@ -129,7 +129,7 @@ do
 	    service dropbear restart
 	    echo "------------+ AUTO KILL SUDAH DI AKTIFKAN BOSS +--------------" | lolcat
 	    
-	echo "Dasar pelit!!! user ente marah2 jangan salahkan ane ya boss¡¡¡
+	echo "Dasar pelit!!! user marah2 jangan salahkan saya ya boss¡¡¡
 nanti jangan lupa di matikan boss
 biar user senang bs multilogin lagi.." | boxes -d boy | lolcat
 	break
@@ -155,7 +155,7 @@ User Sudah Bisa Multi Login Lagi!!!" | boxes -d boy | lolcat
 	clear
 	read -p "Silahkan isi password baru untuk VPS anda: " pass	
         echo "root:$pass" | chpasswd
-	echo "Ciieeee.. Ciieeeeeee.. Abis Ganti Password VPS Nie Yeeee...!!!"| boxes -d boy | lolcat
+	echo "Ciieeee.. Ciieeeeeee.. Abis Ganti Password VPS...!!!"| boxes -d boy | lolcat
 	break
 	;;
 	"Bersihkan Cache Ram Manual")
