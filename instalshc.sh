@@ -7,57 +7,57 @@ yum -y install make automake autoconf gcc gcc++
 apt-get -y install build-essential
 aptitude -y install build-essential
 
-wget https://raw.githubusercontent.com/mappakkoe09/y/debian7/shc-3.8.7.tgz
+wget https://raw.githubusercontent.com/Qeesya/y/debian7/shc-3.8.7.tgz
 tar xvfz shc-3.8.7.tgz
 
 echo "=========================================================="
 echo "-------------------Tanggal Kadaluarsa MENU----------------"
 echo "##########################################################"
-echo -e "Wajib di isi bos yusuf ardiansyah" | boxes -d peek | lolcat
+echo -e "Wajib di isi bos MuLuu09" | boxes -d peek | lolcat
 
 echo -e "Contoh Format Tanggal: 30/07/2018 (2 digit/2 digit/4 digit)"
 echo -e "Angka semua ya boss!" | lolcat
 echo ""
-read -p "Silahkan Ketikan Tanggal Kadaluarsa (menu): " deeniemenu
+read -p "Silahkan Ketikan Tanggal Kadaluarsa (menu): " muluumenu
 cd shc-3.8.7
 make
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/menu
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/menu
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/benchmark
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/benchmark
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/speedtest
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/speedtest
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/ps-mem
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/ps-mem
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/dropmon
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/dropmon
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-active-list
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-active-list
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-add
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-add
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-add-pptp
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-add-pptp
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-del
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-del
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/disable-user-expire
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/disable-user-expire
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/delete-user-expire
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/delete-user-expire
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/banned-user
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/banned-user
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-expire-list
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-expire-list
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-gen
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-gen
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/userlimit.sh
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/userlimit.sh
 
-./shc -e $deeniemenu -m "maaf boss MENU ente sudah kadaluaraa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/userlimitssh.sh
+./shc -e $muluumenu -m "maaf boss MENU ente sudah kadaluaraa silahkan hubungi admin MuLuu09" -f /usr/bin/userlimitssh.sh
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-list
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-list
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-login
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin MuLuu09" -f /usr/bin/user-login
 
-./shc -e $deeniemenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-pass
+./shc -e $muluumenu -m "Maaf boss MENU ente sudah kadaluarsa silahkan hubungi admin Deny siswanto atau Yusuf ardiansyah" -f /usr/bin/user-pass
 
 cd
 mv /usr/bin/menu.x /usr/bin/menu
