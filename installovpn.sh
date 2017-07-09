@@ -28,7 +28,7 @@ vps="aneka";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/mappakkoe09/y"
+	source="https://raw.githubusercontent.com/Qeesya/y"
 #fi
 
 # go to root
