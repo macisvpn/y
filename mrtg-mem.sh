@@ -18,7 +18,7 @@ fi
 vps="aneka";
 
 
-	source="https://raw.githubusercontent.com/mappakkoe09/y"
+	source="https://raw.githubusercontent.com/Qeesya/y"
 
 
 # go to root
@@ -50,7 +50,7 @@ echo "----------------------------------------------------------------"
 	echo " Edited BY MuLuu09 atau (+601131731782)"
 
 
-	echo " TEAM-HACKER "
+	echo " TEAM-CRACKER "
 echo "----------------------------------------------------------------" 
 
 cd ~/
