@@ -17,7 +17,7 @@ fi
 
 echo "------- ---------- BANNED AKUN SSH --------------------"
 
-	echo "         DEVELOPED BY MuLuu09 (+601131731782)            "
+	echo "         DEVELOPED BY MuLuu09 (+60107052718)            "
 echo ""
 
 # begin of user-list
